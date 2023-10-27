@@ -88,14 +88,14 @@ poetry install
   Setze die Umgebungsvariable `PRODIGY_POSSIBLE_SESSIONS` mit den erlaubten Nutzernahmen und starte
   die Anwendung:
 
-```
+```shell
 export PRODIGY_POSSIBLE_SESSIONS=layla,kate,maryam
 python3 -m prodigy ocr-eval <Name des Datensets> <Pfad zu Eingabedaten>
 ```
 
 Bsp.:
 
-```
+```shell
 python3 -m prodigy ocr-eval my-eval /opt/prodigy/datasets/my-data.jsonl
 ```
 
@@ -106,4 +106,11 @@ die Daten im JSONL-Format exportiert werden
 (siehe [prodigy Dokumentation](https://prodi.gy/docs/recipes#db-out)).
 
 Bsp.:
-`prodigy db-out my-eval path/to/output/directory`
+```shell
+prodigy db-out my-eval path/to/output/directory
+```
+
+
+## License
+
+[MIT License](LICENSE)

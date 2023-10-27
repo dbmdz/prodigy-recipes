@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "prodigy-recipes"
 version = "0.1.0"
-description = ""
-authors = ["Katharina Schmid <katharina.schmid@bsb-muenchen.de>"]
+description = "prodigy recipes for data annotation by DBMDZ"
+authors = ["Johannes Baiter <johannes.baiter@bsb-muenchen.de>", "Marcus Bitzl <marcus.bitzl@bsb-muenchen.de>", "Stefan Schweter <stefan.schweter@bsb-muenchen.de>", "Katharina Schmid <katharina.schmid@bsb-muenchen.de>"]
 readme = "README.md"
 packages = [{include = "prodigy_recipes"}]
 
