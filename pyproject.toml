@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "prodigy-recipes"
+version = "0.1.0"
+description = ""
+authors = ["Katharina Schmid <katharina.schmid@bsb-muenchen.de>"]
+readme = "README.md"
+packages = [{include = "prodigy_recipes"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prodigy = "^1.12.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."prodigy_recipes"]
+"ocr-eval" = "prodigy_recipes:ocr_eval.ocr_eval"
