@@ -111,6 +111,6 @@ prodigy db-out my-eval path/to/output/directory
 ```
 
 
-## License
+## Lizenz
 
 [MIT License](LICENSE)
