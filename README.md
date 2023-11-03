@@ -78,15 +78,15 @@ Bsp. für `prodigy.json`:
 
 ## Benutzung
 
-* Installiere Projekt und Abhängigkeiten:
+Installiere Projekt und Abhängigkeiten:
 
 ```shell
 poetry install
 ```
 
-* Wechsle in das Arbeitsverzeichnis und erstelle die Konfigurationsdatei `prodigy.json` (optional).
-  Setze die Umgebungsvariable `PRODIGY_POSSIBLE_SESSIONS` mit den erlaubten Nutzernahmen und starte
-  die Anwendung:
+Wechsle in das Arbeitsverzeichnis und erstelle die Konfigurationsdatei `prodigy.json` (optional).
+Setze die Umgebungsvariable `PRODIGY_POSSIBLE_SESSIONS` mit den erlaubten Nutzernamen und starte
+die Anwendung:
 
 ```shell
 export PRODIGY_POSSIBLE_SESSIONS=layla,kate,maryam
